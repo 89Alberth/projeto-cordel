@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*Fontes*/
+
+@font-face {
+    font-family: 'passion-one';
+    src: url(fontes/PassionOne-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'passion-one-normal';
+    src: url(fontes/PassionOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root{
+--fonte-titulo: 'passion-One', cursive;
+--fonte-titulo-normal: 'passion-one-normal', cursive;
+--fonte-paragrafo: 'Sriracha', cursive;
+
+}
+/*body*/
+
+body{
+    background-color: rgb(247, 238, 228);
+    box-shadow: 0px 0px 20px black;
+}
+
+/*header*/
+
+header{
+    background-image: url(imagens/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 60vh;
+    box-shadow: 0px 0px 20px black;
+
+}
+
+header > h1{
+    
+    color: rgb(255, 255, 255);
+    font-family: var(--fonte-titulo);
+    font-weight: bold;
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 80px;
+    text-shadow: 5px 5px 20px rgb(53, 32, 32);
+}  
+
+header > p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 30px;
+    
+
+}
+header > p > a{
+    font-family: var(--fonte-titulo-normal);
+    text-decoration: none;
+    font-size: 2vw;
+    color: black;
+
+}
+
+/*Conteúdo*/
+
+p.paragrafo1{
+    text-align: left;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    font-family: var(--fonte-paragrafo);
+    font-size: 3vw;
+    width: 35vw;
+    line-height: 2em;
+    padding: 25px 50px 25px 50px;
+    
+}
+
+p.paragrafo2{
+    color: white;
+    text-align: left;
+    font-family: var(--fonte-paragrafo);
+    font-size: 3vw;
+    width: 38vw;
+    line-height: 2em;
+    padding: 25px 50px 25px 50px;
+    background-color: rgba(0, 0, 0, 0.178);
+    background-size: 100vh;
+    text-shadow: 1px 1px 7px black;
+    border-radius: 10px;
+}
+
+#img-1{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url(imagens/background001.jpg);
+    
+}
+#img-2{
+    
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url(imagens/background002.jpg);
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
