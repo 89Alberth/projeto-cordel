@@ -75,7 +75,7 @@ header > p > a{
 
 /*Conteúdo*/
 
-p.paragrafo1{
+.paragrafo1{
     text-align: left;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     font-family: var(--fonte-paragrafo);
@@ -86,7 +86,7 @@ p.paragrafo1{
     
 }
 
-p.paragrafo2{
+.paragrafo2{
     color: white;
     text-align: left;
     font-family: var(--fonte-paragrafo);
